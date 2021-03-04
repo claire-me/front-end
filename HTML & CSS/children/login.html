@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first website!</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="pic/logo.jpg" alt="logo" width="50px" height="30px">
+      <ul>
+        <li>
+          <a href="learn.html">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="about.html">
+          About us
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <h2>Login</h2>
+    <p>Guardian/Parent should please fill form</p>
+    <form class="good" action="learn.html" method="GET">
+      First Name: <input type="text" name="firstName"><br>
+      Last Name: <input type="text" name="lastName"><br>
+      Email: <input type="email" name="email" required><br>
+      Password: <input type="password" name="password"><br>
+    </form>
+    <form action="learn.html" method="GET">
+            <button type="submit">Login</button>
+            <input class="special" type="reset" value="Reset">
+    </form>
+  </section>
+</body>
+</html>

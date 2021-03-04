@@ -1,0 +1,63 @@
+body{
+background: purple;
+font-family: 'Lato', sans-serif;
+text-align: center;
+color: purple;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 5em;
+}
+
+a{
+    color: white; 
+    text-decoration: none; 
+    text-align: center;
+    background-color: purple; 
+    color: white;
+}
+
+a:hover{
+    color: white; 
+    text-decoration: none; 
+    text-align: center;
+    background-color: purple; 
+    color: white;
+}
+
+.images{
+    display: flex; 
+    float: left;
+    flex-wrap: wrap;
+    height: 50%;
+    margin: 0px 20px;
+    /* width: 50%;  */
+} 
+
+.images img{
+        width: 290px;
+    height: 220px;
+    display: flex;
+    /* height: 100%; */
+}
+
+.jumbotron{
+    text-align: center; 
+    background-color: pink;
+    margin: 1% 10%;
+    padding: 4% 0px;
+    border-radius: 3%;
+}
+
+button{
+    background-color: purple; 
+    border: purple 1px solid;
+}
+
+form{
+    width: 30%; 
+    box-shadow: 3px 3px pink; 
+    padding: 30px; 
+    margin-left: 29em;
+}

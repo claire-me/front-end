@@ -1,0 +1,94 @@
+body{
+    background-image: url(pic/bianca.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    color: black;
+    background-color: white;
+
+}
+
+img{
+    margin: 20.5px 10px;
+}
+
+ul{
+    padding-left: 50em;
+    padding-top: 10px;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+}
+
+h2{
+    font-size: 3em;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.boxModel{
+    border: 5px solid yellow;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    cursor: default;
+}
+
+.boxModel:hover{
+    border: 4px solid royalblue;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 10px;
+    font-size: 30px;
+}
+
+button{
+    background-color: orange;
+    padding: 10px 10px;
+    border-radius: 30px;
+    margin: 0px 0px 0px 45%;
+    border: 1px solid orange;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+input{
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.good{
+    margin-left: 35%;
+}
+
+.special{
+    background-color: orange;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: 1px solid orange;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
